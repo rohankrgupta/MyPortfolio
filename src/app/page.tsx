@@ -87,7 +87,7 @@ export default function Home() {
         school="University of Wisconsin Madison"
         time="2025 - Present"
         courseDescription={["",
-          "• Relevant Coursework: Natural Language Processing, Visual Learning, Computer Vision, GPU Programming, Statistical Learning, Parameter Estimation.",
+          "• Relevant Coursework: Machine learning",
           "• Proficient in statistical analysis, hypothesis testing, and applying machine learning algorithms for predictive modeling.",
 //           "• Developed skills in visual data processing and parallel programming for efficient large-scale data processing and ML tasks."
         ]}

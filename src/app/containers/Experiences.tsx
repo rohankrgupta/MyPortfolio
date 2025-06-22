@@ -40,11 +40,11 @@ const Experiences = () => {
         imageSrc={jpmorgan}
         imageAlt="jpmorgan 2022"
         description={["",
-          "• Market Mix Modeling: Developed of a Hierarchical Bayesian Regression model to decode contribution of KPIs, ROI of sales drivers and provide insights for improving Organic Search Ranks on Amazon e-commerce.",
-          "• Generative AI: Developed a POC on the application of Computer Vision in cosmetic surgeries using Generative Adversarial Network (GAN) with landmark detection for face reenactment and post-operative face estimation.",
-          "• Time Series Forecasting: Developed time-series forecasting models utilizing ARIMA & VAR and integrated with a postgreSQL database to predict different components of P&L, which resulted in tax reduction.",
-          "• Explainable AI: Developed, optimized, and deployed an Azure-based ML pipeline on surrogate models (SHAP/LIME) using Synapse- ML on Python and PySpark scripts to obtain an interpretable and visual explanation of black box models.",
-          "• Clinical Trail Pipeline: Developed a POC of a clinical trial pipeline utilizing scispaCy to assess patient attributes for optimal patient selection and cluster formation. Created synthetic clinical data and used CNN for medical image analysis."
+          "• Generative AI: Prototyped a scalable internal chatbot assistant using Retrieval-Augmented Generation (RAG) with GPT-3.5 via AWS Bedrock API, reducing tech support tickets by 70% and handling over 10K queries during beta rollout.",
+          "• RAG Pipeline: Developed a robust data preprocessing pipeline using Python and Apache Spark to scrape and structure internal wiki content, leveraging FAISS for fast vector-based retrieval in the RAG workflow.",
+          "• Time Series Forecasting: Prototyped time-series forecasting models (ARIMA, VAR) integrated with MySQL to predict key mutual fund NAV components using historical benchmarks, maintaining forecast continuity and accuracy during data latency.",
+          "• Cloud Computing: Reduced infrastructure costs by 55% by deploying multiple Spring Boot applications on AWS using Docker, enabling seamless containerization and scalable cloud-native integration.",
+//           "• Clinical Trail Pipeline: Developed a POC of a clinical trial pipeline utilizing scispaCy to assess patient attributes for optimal patient selection and cluster formation. Created synthetic clinical data and used CNN for medical image analysis."
         ]}
         positionName="Software Engineer"
         companyName="JPMorganChase"
@@ -57,8 +57,8 @@ const Experiences = () => {
           imageSrc={jpmorgan}
           imageAlt="jpmorgan 2022"
           description={["",
-            "• Market Mix Modeling: Developed of a Hierarchical Bayesian Regression model to decode contribution of KPIs, ROI of sales drivers and provide insights for improving Organic Search Ranks on Amazon e-commerce.",
-            "• Generative AI: Developed a POC on the application of Computer Vision in cosmetic surgeries using Generative Adversarial Network (GAN) with landmark detection for face reenactment and post-operative face estimation.",
+            "• Data Archival: Developed a large-scale data offloading strategy for production SQL database, reducing the active footprint by 35%, achieving a significant reduction in storage costs.",
+            "• Cloud Computing: Automated the data archival process using a serverless AWS Lambda workflow to S3, enabling efficient, on-demand access to terabytes of archived JSON datasets.",
           ]}
           positionName="Software Engineering Intern"
           companyName="JPMorganChase"
@@ -71,8 +71,8 @@ const Experiences = () => {
         imageSrc={samsung}
         imageAlt="samsung 2022"
         description={["",
-          "• Market Mix Modeling: Developed of a Hierarchical Bayesian Regression model to decode contribution of KPIs, ROI of sales drivers and provide insights for improving Organic Search Ranks on Amazon e-commerce.",
-          "• Generative AI: Developed a POC on the application of Computer Vision in cosmetic surgeries using Generative Adversarial Network (GAN) with landmark detection for face reenactment and post-operative face estimation.",
+          "• Android Development: Developed a new library module for an android app using Kotlin Flow and Coroutines, streamlining asynchronous operations and reducing transaction complexity by 25%.",
+          "• Pipeline Optimization: Optimized the CI/CD pipeline by implementing strategic build parallelization, leading to a 30% reduction in build time.",
         ]}
         positionName="Software Engineering Intern"
         companyName="Samsung Research"
