@@ -127,7 +127,7 @@ export default function Home() {
           onClick={sendEmail}
           className="bg-[#E95278] mb-5 text-white px-5 py-2 rounded-md text-sm font-medium"
         >
-          Email me: rkgupta@wisc.edu
+          Email me: rkgupta3@wisc.edu
         </button>
         {/* <button
           onClick={makeCall}
