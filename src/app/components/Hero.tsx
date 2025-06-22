@@ -47,7 +47,7 @@ const Hero = () => {
           Linkedin
         </Link>
         <Link
-          href="https://drive.google.com/drive/folders/1E82cRQPlTA3OidzWd15CD3VO8q1Oucvh"
+          href="https://drive.google.com/drive/folders/18dShumaOW-sIDcPZYq2R1oiNd1hM7PmD"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
