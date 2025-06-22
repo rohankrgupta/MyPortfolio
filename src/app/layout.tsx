@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Rohan Gupta",
   description:
-    "Reya Sadhu&rsquo;s Portfolio: Machine Learning Engineer from Los Angeles, California",
+    "Rohan Gupta's Portfolio: Machine Learning Engineer from UW Madison, WI",
 };
 
 export default function RootLayout({
