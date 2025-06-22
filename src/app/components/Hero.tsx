@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import MyProfile from "../../assets/RohanGupta.jpg";
+import MyProfile from "../../assets/RohanGupta.png";
 
 const Hero = () => {
   const sendEmail = () => {
