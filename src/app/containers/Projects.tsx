@@ -29,36 +29,44 @@ const Projects = () => {
         projectDescription="Modified neural matrix factorization model for Amazon Products combining item metadata, review texts, and user-item interactions."
         projectLink="https://github.com/rohankrgupta/Review_rating_prediction"
       />
-      <Project
+{/*       <Project
         imageSrc={Sage}
         imageAlt="Sage"
         projectName="Multitask Learning BERT"
         projectDescription="A multitask model developed by fine-tuning pre-trained BERT on three downstream tasks."
         projectLink="https://github.com/rohankrgupta/Multi-task-Learning-BERT"
+      /> */}
+      
+        <Project
+        imageSrc={Sage}
+        imageAlt="Sage"
+        projectName="Text-2-SQL Generator"
+        projectDescription="Fine-tuned bart-base on the GretelAI dataset to translate natural language questions into executable SQL queries."
+        projectLink="https://github.com/rohankrgupta/Text-To-SQL-Generator"
       />
-      <Project
+{/*       <Project
         imageSrc={HoopsPredictor}
         imageAlt="HoopsPredictor"
         projectName="Language Model From Scratch"
         projectDescription="Transformer based Text Classifier and Next word prediction model."
         projectLink="https://github.com/rohankrgupta/Language_Model"
-      />
+      /> */}
 
-      <Project
+{/*       <Project
         imageSrc={Leaps}
         imageAlt="Leaps"
         projectName="Reinforcement Learning"
         projectDescription="Q-learning based algorithm in CUDA for the mine game."
         projectLink="https://github.com/rohankrgupta/Multi_Agent_Reinforcement_Learning"
-      />
+      /> */}
 
-      <Project
+{/*       <Project
         imageSrc={FAOutlets}
         imageAlt="FAOutlets"
         projectName="Optimization Algorithm Comparison"
         projectDescription="Detailed report on Gradient Descent Optimization Algorithms with supporting Python script."
         projectLink="https://github.com/rohankrgupta/Gradient-Descent-Optimization"
-      />
+      /> */}
       <Project
         imageSrc={Repeat}
         imageAlt="Repeat Purchase"
