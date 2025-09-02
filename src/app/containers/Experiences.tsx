@@ -38,7 +38,7 @@ const Experiences = () => {
       */}
 
        <Experience
-        imageSrc={jpmorgan}
+        imageSrc={UWM}
         imageAlt="UW Madison"
         description={["CS 354",
         "• Guiding a class of 500+ students in C programming, memory management & assembly level concepts.",
