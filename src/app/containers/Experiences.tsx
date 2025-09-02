@@ -36,15 +36,30 @@ const Experiences = () => {
         dateOfExperience="April 2024 - June 2024"
       />
       */}
+
+       <Experience
+        imageSrc={UWM}
+        imageAlt="UWM"
+        description={["CS 354",
+        "• Guiding a class of 500+ students in C programming, memory management & assembly level concepts.",
+        ]}
+        positionName="Graduate Teaching Assistant"
+        companyName="UWM"
+        location="Wisconsin, USA"
+        backgroundColor="#FFFFFF"
+        dateOfExperience="August 2025 - Present"
+      />
+      
       <Experience
         imageSrc={jpmorgan}
         imageAlt="jpmorgan 2022"
         description={["",
-          "• Generative AI: Prototyped a scalable internal chatbot assistant using Retrieval-Augmented Generation (RAG) with GPT-3.5 via AWS Bedrock API, reducing tech support tickets by 70% and handling over 10K queries during beta rollout.",
+          "• Generative AI: Prototyped a scalable internal chatbot assistant using Retrieval-Augmented Generation (RAG) with GPT-3.5 via AWS Bedrock API, handling over 30K queries during beta rollout.",
           "• RAG Pipeline: Developed a robust data preprocessing pipeline using Python and Apache Spark to scrape and structure internal wiki content, leveraging FAISS for fast vector-based retrieval in the RAG workflow.",
-          "• Time Series Forecasting: Prototyped time-series forecasting models (ARIMA, VAR) integrated with MySQL to predict key mutual fund NAV components using historical benchmarks, maintaining forecast continuity and accuracy during data latency.",
+          "• Data Archival: Developed a large-scale data offloading strategy for production SQL database, reducing the active footprint by 35%, achieving a significant reduction in storage costs.",
+          // "• Time Series Forecasting: Prototyped time-series forecasting models (ARIMA, VAR) integrated with MySQL to predict key mutual fund NAV components using historical benchmarks, maintaining forecast continuity and accuracy during data latency.",
+          "• Cloud Computing: Automated the data archival process using a serverless AWS Lambda workflow to S3, enabling efficient, on-demand access to terabytes of archived JSON datasets.",
           "• Cloud Computing: Reduced infrastructure costs by 55% by deploying multiple Spring Boot applications on AWS using Docker, enabling seamless containerization and scalable cloud-native integration.",
-//           "• Clinical Trail Pipeline: Developed a POC of a clinical trial pipeline utilizing scispaCy to assess patient attributes for optimal patient selection and cluster formation. Created synthetic clinical data and used CNN for medical image analysis."
         ]}
         positionName="Software Engineer"
         companyName="JPMorganChase"
@@ -57,8 +72,8 @@ const Experiences = () => {
           imageSrc={jpmorgan}
           imageAlt="jpmorgan 2022"
           description={["",
-            "• Data Archival: Developed a large-scale data offloading strategy for production SQL database, reducing the active footprint by 35%, achieving a significant reduction in storage costs.",
-            "• Cloud Computing: Automated the data archival process using a serverless AWS Lambda workflow to S3, enabling efficient, on-demand access to terabytes of archived JSON datasets.",
+            "• Frontend: Led the modernization of a key dashboard component by migrating the front-end to React JS and AG Grid with Cypress E2E test suite, enabling complex data interaction and reducing UI latency by 30%.",
+            "• Cloud Computing: Implemented REST Endpoints to generate S3 presigned URL for secure client-side file transfers, reducing server load.",
           ]}
           positionName="Software Engineering Intern"
           companyName="JPMorganChase"
