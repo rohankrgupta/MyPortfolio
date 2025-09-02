@@ -4,7 +4,7 @@ import samsung from "../../assets/samsung.jpeg"
 import VCE from "../../assets/VCE.png";
 import CU from "../../assets/CU.png";
 import TikTok from "../../assets/TikTokLogo.png";
-import UWM from "../../assets/UWM.svg";
+import UWM from "../../assets/UWM.png";
 
 const Experiences = () => {
   return (
