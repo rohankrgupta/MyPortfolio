@@ -26,7 +26,7 @@ const Hero = () => {
         Open to Work
       </button>
       <p className="text-[#747371] text-center text-xs sm:text-sm mb-2 sm:mb-3">
-        Incoming Quant Research Analyst at JPMorganChase, New York
+        Incoming Quant Research Summer Intern at JPMorganChase, New York
       </p>
       <p className="text-[#747371] text-xs sm:text-sm">
         Find me on:{" "}
