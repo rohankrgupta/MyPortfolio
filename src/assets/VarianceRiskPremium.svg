@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Premium shading (area between IV and RV curves) -->
+  <path d="M6 24 Q18 12 32 22 T58 18 L58 40 Q46 36 32 40 T6 42 Z"
+        fill="#E95278" opacity="0.12"/>
+  <!-- Implied Vol curve (upper, pink) -->
+  <path d="M6 24 Q18 12 32 22 T58 18"
+        stroke="#E95278" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Realized Vol curve (lower, dark) -->
+  <path d="M6 42 Q18 38 32 40 T58 36"
+        stroke="#1E293B" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Small IV/RV ticks -->
+  <circle cx="6" cy="24" r="1.75" fill="#E95278"/>
+  <circle cx="6" cy="42" r="1.75" fill="#1E293B"/>
+  <!-- σ² glyph bottom-right -->
+  <text x="44" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" font-weight="700" fill="#1E293B">σ</text>
+  <text x="54" y="53" font-family="Georgia, 'Times New Roman', serif" font-size="8" font-weight="700" fill="#1E293B">2</text>
+</svg>

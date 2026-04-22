@@ -1,92 +1,55 @@
-import Leaps from "../../assets/LeapsLogo.png";
 import Sage from "../../assets/SageV2.png";
-import Joblicant from "../../assets/Joblicant.png";
-import ChatPulse from "../../assets/ChatPulse.png";
-import FAInitiative from "../../assets/FAInitiative.png";
-import HoopsPredictor from "../../assets/HoopsPredictor.png";
-import FAOutlets from "../../assets/FAOutlets.png";
-import CycleScan from "../../assets/CycleScan.png";
 import Repeat from "../../assets/repeat.png";
-import Ship from "../../assets/ship.png";
 import azn from "../../assets/azn.png";
 import spn from "../../assets/spn.png";
+import RobustAsianPricer from "../../assets/RobustAsianPricer.svg";
+import VarianceRiskPremium from "../../assets/VarianceRiskPremium.svg";
 import Project from "../components/Project";
 
 const Projects = () => {
   return (
     <>
       <Project
+        imageSrc={RobustAsianPricer}
+        imageAlt="RobustAsianPricer"
+        projectName="RobustAsianPricer"
+        projectDescription="High-performance C++ Monte Carlo pricer for Asian options with OpenMP + SIMD and NUMA-aware thread-local RNG streams; 2× CPU speedup, 3× multi-core scaling, and +19% throughput."
+        projectLink="https://github.com/rohankrgupta/RobustAsianOptionPricer"
+      />
+      <Project
+        imageSrc={VarianceRiskPremium}
+        imageAlt="VarianceRiskPremium"
+        projectName="Variance Risk Premium"
+        projectDescription="Python research pipeline on 15 years of SPX/VIX data with a z-score signal and VIX-regime filter; backtested through 2018 Volmageddon and 2020 COVID shocks."
+        projectLink="https://github.com/rohankrgupta/Variance-Risk-Premium"
+      />
+      <Project
         imageSrc={spn}
-        imageAlt="Sage"
+        imageAlt="Personalized E-commerce Recommendation"
         projectName="Personalized E-commerce Recommendation"
-        projectDescription="A retrieval based recommendation system with two tower architecture."
+        projectDescription="A retrieval-based recommendation system with two-tower architecture."
         projectLink="https://github.com/rohankrgupta/personalized_ecommerce_recommendation"
       />
       <Project
         imageSrc={azn}
-        imageAlt="Sage"
-        projectName="Review Rating prediction"
-        projectDescription="Modified neural matrix factorization model for Amazon Products combining item metadata, review texts, and user-item interactions."
+        imageAlt="Review Rating Prediction"
+        projectName="Review Rating Prediction"
+        projectDescription="Modified neural matrix factorization model for Amazon products combining item metadata, review texts, and user-item interactions."
         projectLink="https://github.com/rohankrgupta/Review_rating_prediction"
       />
-{/*       <Project
+      <Project
         imageSrc={Sage}
-        imageAlt="Sage"
-        projectName="Multitask Learning BERT"
-        projectDescription="A multitask model developed by fine-tuning pre-trained BERT on three downstream tasks."
-        projectLink="https://github.com/rohankrgupta/Multi-task-Learning-BERT"
-      /> */}
-      
-        <Project
-        imageSrc={Sage}
-        imageAlt="Sage"
+        imageAlt="Text-2-SQL Generator"
         projectName="Text-2-SQL Generator"
         projectDescription="Fine-tuned bart-base on the GretelAI dataset to translate natural language questions into executable SQL queries."
         projectLink="https://github.com/rohankrgupta/Text-To-SQL-Generator"
       />
-{/*       <Project
-        imageSrc={HoopsPredictor}
-        imageAlt="HoopsPredictor"
-        projectName="Language Model From Scratch"
-        projectDescription="Transformer based Text Classifier and Next word prediction model."
-        projectLink="https://github.com/rohankrgupta/Language_Model"
-      /> */}
-
-{/*       <Project
-        imageSrc={Leaps}
-        imageAlt="Leaps"
-        projectName="Reinforcement Learning"
-        projectDescription="Q-learning based algorithm in CUDA for the mine game."
-        projectLink="https://github.com/rohankrgupta/Multi_Agent_Reinforcement_Learning"
-      /> */}
-
-{/*       <Project
-        imageSrc={FAOutlets}
-        imageAlt="FAOutlets"
-        projectName="Optimization Algorithm Comparison"
-        projectDescription="Detailed report on Gradient Descent Optimization Algorithms with supporting Python script."
-        projectLink="https://github.com/rohankrgupta/Gradient-Descent-Optimization"
-      /> */}
       <Project
         imageSrc={Repeat}
-        imageAlt="Repeat Purchase"
+        imageAlt="Repeat Purchase Prediction"
         projectName="Repeat Purchase Prediction"
-        projectDescription="An XGBoost Classifier based model to estimate the likelihood of a customer making a repeat purchase."
+        projectDescription="An XGBoost classifier based model to estimate the likelihood of a customer making a repeat purchase."
         projectLink="https://github.com/rohankrgupta/repeat_purchase_prediction"
-      />
-      <Project
-        imageSrc={CycleScan}
-        imageAlt="CycleScan"
-        projectName="Scene Classification"
-        projectDescription="Ensemble model by leveraging transfer learning with CNNs for image classification."
-        projectLink="https://github.com/rohankrgupta/scene_classification"
-      />
-      <Project
-        imageSrc={Ship}
-        imageAlt="Ship"
-        projectName="Ship Detection CNN"
-        projectDescription="An Xception CNN model on augmented images for image recognition"
-        projectLink="https://github.com/rohankrgupta/ship_detection_CNN"
       />
     </>
   );

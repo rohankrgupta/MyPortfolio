@@ -37,6 +37,17 @@ const Experiences = () => {
       />
       */}
 
+      <Experience
+        imageSrc={jpmorgan}
+        imageAlt="JPMorganChase Quantitative Research"
+        description={["Incoming Summer Analyst — QR Markets team"]}
+        positionName="Quantitative Research Summer Analyst"
+        companyName="JPMorganChase"
+        location="New York, NY, USA"
+        backgroundColor="#F8F8FA"
+        dateOfExperience="June 2026 - August 2026"
+      />
+
        <Experience
         imageSrc={UWM}
         imageAlt="UW Madison"
@@ -49,19 +60,16 @@ const Experiences = () => {
         backgroundColor="#FFFFFF"
         dateOfExperience="August 2025 - Present"
       />
-      
+
       <Experience
         imageSrc={jpmorgan}
         imageAlt="jpmorgan 2022"
         description={["",
-          "• Generative AI: Prototyped a scalable internal chatbot assistant using Retrieval-Augmented Generation (RAG) with GPT-3.5 via AWS Bedrock API, handling over 30K queries during beta rollout.",
-          "• RAG Pipeline: Developed a robust data preprocessing pipeline using Python and Apache Spark to scrape and structure internal wiki content, leveraging FAISS for fast vector-based retrieval in the RAG workflow.",
-          "• Data Archival: Developed a large-scale data offloading strategy for production SQL database, reducing the active footprint by 35%, achieving a significant reduction in storage costs.",
-          // "• Time Series Forecasting: Prototyped time-series forecasting models (ARIMA, VAR) integrated with MySQL to predict key mutual fund NAV components using historical benchmarks, maintaining forecast continuity and accuracy during data latency.",
-          "• Cloud Computing: Automated the data archival process using a serverless AWS Lambda workflow to S3, enabling efficient, on-demand access to terabytes of archived JSON datasets.",
-          "• Cloud Computing: Reduced infrastructure costs by 55% by deploying multiple Spring Boot applications on AWS using Docker, enabling seamless containerization and scalable cloud-native integration.",
+          "• Prototyped time-series forecasting models (ARIMA, VAR) integrated with MySQL to predict key mutual fund NAV components using historical benchmarks, ensuring forecast continuity for key institutional clients like Vanguard and BlackRock.",
+          "• Built a scalable internal chatbot assistant using Retrieval-Augmented Generation (RAG) with GPT-3.5 via internal APIs, handling over 30K queries during beta rollout.",
+          "• Developed a large-scale data offloading and archival strategy for production SQL database under Corporate & Investment Bank (CIB), reducing the active footprint by 35%, achieving a significant reduction in storage costs.",
         ]}
-        positionName="Software Engineer"
+        positionName="Analyst"
         companyName="JPMorganChase"
         location="Bangalore, India"
         backgroundColor="#F8F8FA"
@@ -93,7 +101,7 @@ const Experiences = () => {
         companyName="Samsung Research"
         location="Bangalore, India"
         backgroundColor="#F8F8FA"
-        dateOfExperience="June 2022 - September 2022"
+        dateOfExperience="April 2022 - June 2022"
         />
 
       {/* <Experience
